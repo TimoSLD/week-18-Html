@@ -1,0 +1,78 @@
+
+#container{
+    font-family: 'Archivo', sans-serif;
+}
+
+#grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 5rem 5rem 26rem 5rem 5rem 5rem 5rem;
+}
+
+#geelvak{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: yellow;
+}
+#menu-img1, #menu-img2{
+    margin: 0.7rem 0 0 1.5rem;
+    width: 70px;
+    height: 60px;
+}
+
+#banner{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#menu-img1:hover, #menu-img2:hover{
+    border: black;
+    border-radius: 5rem;
+}
+
+#banner-item{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+#banner-img{
+    margin: 0 0 0 7rem;
+}
+
+#rijles-img{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    width: fit-content;
+}
+
+@media only screen and (min-width: 632px) {
+    #rijles-img {
+      margin: 0 auto;
+    }
+}
+
+#proefles{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+#auto-img{
+    display: inline-block;
+    margin: 1rem 0 0 1.5rem;
+    width: 45px;
+    height: 40px;
+}
+
+#h1-proefles{
+    display: inline-block;
+    margin: 0 0 0.3rem 0;
+}

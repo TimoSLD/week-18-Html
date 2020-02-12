@@ -175,7 +175,7 @@ display: none;
 }
 
 @media (max-width: 1297px){
-.na1-1{
+.nav1-1{
     display: none;
 }
 
@@ -425,7 +425,7 @@ grid-row-start: 9;
 grid-row-end: 10;
 }
 
-.knopp4{
+.knop4-1{
 grid-column-start: 5;
 grid-column-end: 6;
 grid-row-start: 4;
@@ -433,7 +433,7 @@ grid-row-end: 5;
 margin-left: 4em;
 }
 
-.knopvv4{
+.knop4-11{
 background-color: #ECD913;
 grid-column-start: 5;
 grid-column-end: 6;
@@ -609,7 +609,7 @@ display: none;
 }
 
 @media (max-width: 1297px){
-.knop4{
+.knop4-1{
     display: none;
 }
 
@@ -623,7 +623,7 @@ display: none;
 }
 
 
-.knopvv4{
+.knop4-11{
 display: none;
 }
 
@@ -632,7 +632,7 @@ display: none;
     display: none;
 }
 
-.knopvv4{
+.knop4-11{
     display: block;
 }
 }
